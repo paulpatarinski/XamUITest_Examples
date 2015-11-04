@@ -22,7 +22,7 @@ class ViewController: UIViewController {
 
     @IBAction func helloWorldBtnClicked()
     {
-        let alertContoller = UIAlertController(title: "Welcome to my first app", message: "Hello World", preferredStyle: UIAlertControllerStyle.Alert)
+        let alertContoller = UIAlertController(title: "Sample Login Popup", message: "Logged In", preferredStyle: UIAlertControllerStyle.Alert)
         alertContoller.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
         self.presentViewController(alertContoller, animated: true, completion: nil)
     }
