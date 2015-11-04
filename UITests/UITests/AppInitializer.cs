@@ -26,7 +26,7 @@ namespace UITests
 				.iOS
 			// TODO: Update this path to point to your iOS app and uncomment the
 			// code if the app is not included in the solution.
-				.AppBundle ("/Users/paulpatarinski/Library/Developer/Xcode/DerivedData/HelloWorld-elkkpoqnhyoxsyalzpfaidonkbgi/Build/Products/Debug-iphonesimulator/HelloWorld.app")
+				.AppBundle ("../../../../src/Build/Products/Debug-iphonesimulator/HelloWorld.app")
 				.StartApp ();
 		}
 	}
