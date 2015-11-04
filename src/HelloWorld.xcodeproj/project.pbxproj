@@ -343,8 +343,11 @@
 				INFOPLIST_FILE = HelloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				"OTHER_LDFLAGS[arch=*]" = (
+					"-ObjC",
 					"-framework",
 					CFNetwork,
+					"-force_load",
+					"\"$(SOURCE_ROOT)/calabash.framework/calabash\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
