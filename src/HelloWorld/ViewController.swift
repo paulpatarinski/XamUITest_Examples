@@ -20,6 +20,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func helloWorldBtnClicked()
+    {
+        let alertContoller = UIAlertController(title: "Welcome to my first app", message: "Hello World", preferredStyle: UIAlertControllerStyle.Alert)
+        alertContoller.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
+        self.presentViewController(alertContoller, animated: true, completion: nil)
+    }
 
 }
 
