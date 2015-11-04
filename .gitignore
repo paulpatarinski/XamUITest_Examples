@@ -1,0 +1,8 @@
+src/Build/Intermediates
+src/Build/Products/Debug-iphonesimulator/HelloWorld.app/Frameworks
+src/Build/Products/Debug-iphonesimulator/HelloWorld.app/Base.lproj
+src/Build/Products/Debug-iphonesimulator/HelloWorldTests.xctest.dSYM
+src/Build/Products/Debug-iphonesimulator/HelloWorld.app.dSYM
+src/Build/Products/Debug-iphonesimulator/HelloWorld.swiftmodule
+src/Build/Products/Debug-iphonesimulator/HelloWorldTests.swiftmodule
+src/Build/Products/Debug-iphonesimulator/HelloWorldTests.xctest
