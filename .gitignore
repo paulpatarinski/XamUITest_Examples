@@ -6,3 +6,4 @@ src/Build/Products/Debug-iphonesimulator/HelloWorld.app.dSYM
 src/Build/Products/Debug-iphonesimulator/HelloWorld.swiftmodule
 src/Build/Products/Debug-iphonesimulator/HelloWorldTests.swiftmodule
 src/Build/Products/Debug-iphonesimulator/HelloWorldTests.xctest
+src_ObjectiveC/Build
