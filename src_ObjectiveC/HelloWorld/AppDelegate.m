@@ -17,7 +17,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    NSLog(@"Calling start of calabash server!");
+    //NSLog(@"Calling start of calabash server!");
     //[CalabashServer start];
     
     // Override point for customization after application launch.
