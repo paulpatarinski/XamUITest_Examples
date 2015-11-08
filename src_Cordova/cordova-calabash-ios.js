@@ -8,7 +8,10 @@ fullpath = (__dirname + '/platforms/ios/' );
 
 console.log('adding frameworks');
 myProj.parse(function (err) {
+    console.log("Adding CFNetwork framework");
     myProj.addFramework('CFNetwork.framework');
+    console.log("Adding Security framework");
+    myProj.addFramework('Security.framework');
     console.log(fullpath + 'calabash.framework');
     myProj.addFramework(fullpath + 'calabash.framework', {customFramework: true});
     fs.writeFileSync(projectPath, myProj.writeSync());
