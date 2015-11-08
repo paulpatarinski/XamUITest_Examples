@@ -7,3 +7,4 @@ src/Build/Products/Debug-iphonesimulator/HelloWorld.swiftmodule
 src/Build/Products/Debug-iphonesimulator/HelloWorldTests.swiftmodule
 src/Build/Products/Debug-iphonesimulator/HelloWorldTests.xctest
 src_ObjectiveC/Build
+src_Cordova/node_modules
