@@ -1,0 +1,13 @@
+{
+  "name": "hello_world",
+  "version": "1.0.0",
+  "description": "Hello World calabash iOS example",
+  "main": "cordova-calabash-ios.js",
+  "author": "Paul Patarinski",
+  "license": "ISC",
+  "devDependencies": {
+    "fs-extra": "^0.26.2",
+    "underscore": "^1.8.3",
+    "xcode": "^0.8.2"
+  }
+}
