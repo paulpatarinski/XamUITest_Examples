@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>89D6DE73-F1F1-4799-A504-7FA9A63AD21A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HelloWorld</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5F100E75762E089B7E08B3B0790C01F8A9CEE5F6</key>
+		<string>https://github.com/paulpatarinski/XamUITest_Native_iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>src_Cordova/platforms/ios/HelloWorld.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5F100E75762E089B7E08B3B0790C01F8A9CEE5F6</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/paulpatarinski/XamUITest_Native_iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5F100E75762E089B7E08B3B0790C01F8A9CEE5F6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5F100E75762E089B7E08B3B0790C01F8A9CEE5F6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>XamUITests_Examples</string>
+		</dict>
+	</array>
+</dict>
+</plist>
