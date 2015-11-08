@@ -1,0 +1,4 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
+options: "b6b658743441d1ab8a55437a0218be3d"
+inputs: 
+- "/Users/paulpatarinski/WIP/Personal/XamUITests_Examples/src/Swift/HelloWorldTests/HelloWorldTests.swift"
