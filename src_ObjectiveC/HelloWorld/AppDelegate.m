@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+//#import "CalabashServer.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +17,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    NSLog(@"Calling start of calabash server!");
+    //[CalabashServer start];
+    
     // Override point for customization after application launch.
     return YES;
 }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7308C81C1BEFC9100088F80F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7308C81B1BEFC9100088F80F /* CFNetwork.framework */; };
+		7308C81E1BEFCE740088F80F /* calabash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7308C81D1BEFCE740088F80F /* calabash.framework */; };
 		73B59A551BEFAD3D001C0CD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B59A541BEFAD3D001C0CD0 /* main.m */; };
 		73B59A581BEFAD3D001C0CD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B59A571BEFAD3D001C0CD0 /* AppDelegate.m */; };
 		73B59A5B1BEFAD3D001C0CD0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B59A5A1BEFAD3D001C0CD0 /* ViewController.m */; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7308C81B1BEFC9100088F80F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		7308C81D1BEFCE740088F80F /* calabash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = calabash.framework; sourceTree = "<group>"; };
 		73B59A4F1BEFAD3D001C0CD0 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73B59A531BEFAD3D001C0CD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73B59A541BEFAD3D001C0CD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7308C81E1BEFCE740088F80F /* calabash.framework in Frameworks */,
+				7308C81C1BEFC9100088F80F /* CFNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +69,8 @@
 		73B59A461BEFAD3D001C0CD0 = {
 			isa = PBXGroup;
 			children = (
+				7308C81D1BEFCE740088F80F /* calabash.framework */,
+				7308C81B1BEFC9100088F80F /* CFNetwork.framework */,
 				73B59A511BEFAD3D001C0CD0 /* HelloWorld */,
 				73B59A6B1BEFAD3E001C0CD0 /* HelloWorldTests */,
 				73B59A501BEFAD3D001C0CD0 /* Products */,
@@ -347,6 +355,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/paulpatarinski/WIP/Personal/XamUITests_Examples/src_Swift,
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = HelloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,6 +370,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/paulpatarinski/WIP/Personal/XamUITests_Examples/src_Swift,
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = HelloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -416,6 +434,7 @@
 				73B59A741BEFAD3E001C0CD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73B59A751BEFAD3E001C0CD0 /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +443,7 @@
 				73B59A771BEFAD3E001C0CD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
