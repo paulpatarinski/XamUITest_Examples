@@ -28,13 +28,29 @@ namespace UITests
 		[Test]
 		public void Enter_Creds_And_Tap_Ok ()
 		{
-			app.EnterText (c => c.Id ("username"), "PaulP");
-			app.EnterText (c => c.Id ("password"), "test password");
-			app.Tap (c => c.Id ("loginButton"));
+			var isHybridApp = app.Query (c => c.WebView ()).Any ();
 
-			app.WaitForElement (c => c.Marked ("Logged In"), "Timed out waiting for Hello World popup");
+			if (isHybridApp) {
+				app.EnterText (c => c.Css ("#username"), "PaulP");
+				app.EnterText (c => c.Id ("#password"), "test password");
+				app.Tap (c => c.Id ("#loginButton"));
+				app.DismissKeyboard ();
 
-			app.Tap (c => c.Marked ("OK"));
+				app.WaitForElement (c => c.Marked ("Logged In"), "Timed out waiting for Logged In popup");
+
+				app.Tap (c => c.Marked ("OK"));
+			} else {
+				app.EnterText (c => c.Id ("username"), "PaulP");
+				app.EnterText (c => c.Id ("password"), "test password");
+				app.Tap (c => c.Id ("loginButton"));
+				app.DismissKeyboard ();
+
+				app.WaitForElement (c => c.Marked ("Logged In"), "Timed out waiting for Logged In popup");
+
+				app.Tap (c => c.Marked ("OK"));
+			}
+
+		
 		}
 	}
 }
