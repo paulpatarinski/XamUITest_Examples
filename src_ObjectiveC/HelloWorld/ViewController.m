@@ -24,4 +24,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)helloWorldBtnClicked:(UIButton *)sender
+{
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Sample Login Popup" message:@"Logged in" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:@"Cancel", nil];
+    [alert show];
+}
+
+
 @end
