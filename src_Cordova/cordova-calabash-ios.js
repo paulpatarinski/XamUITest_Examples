@@ -2,7 +2,7 @@ var xcode = require('xcode'),
     _ = require('underscore'),
     fs = require('fs-extra'),
     path = require('path'),
-    projectPath = 'platforms/ios/Your ProjectName.xcodeproj/project.pbxproj',
+    projectPath = 'platforms/ios/HelloWorld.xcodeproj/project.pbxproj',
     myProj = xcode.project(projectPath);
 fullpath = (__dirname + '/platforms/ios/' );
 
