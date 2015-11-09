@@ -8,7 +8,7 @@
     },
     "installed_plugins": {
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.example.hello"
+            "PACKAGE_NAME": "com.simpleprodinc.HelloWorldCordova"
         }
     },
     "dependent_plugins": {}
