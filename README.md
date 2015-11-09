@@ -12,3 +12,11 @@ iOS | ObjC | :white_check_mark:
 iOS | Xamarin iOS | :wrench: 
 Android | Java | :wrench: 
 Android | Xamarin Android | :wrench: 
+
+#Project structure
+* Apps 
+  * The executables for the Apps under test
+* UITests 
+  * Source for the Xamarin UI Tests
+* src 
+  * The source for the Apps under test 
