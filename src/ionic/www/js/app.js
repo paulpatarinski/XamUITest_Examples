@@ -17,3 +17,8 @@ angular.module('starter', ['ionic'])
     }
   });
 })
+.controller("AppController", function($scope){
+  $scope.login = function(){
+    alert("Logged In");
+  };
+})
