@@ -31,7 +31,9 @@ namespace UITests
 			//SWIFT
 //				.AppBundle ("../../../../Apps/HelloWorld_Swift.app")
 			//CORDOVA
-				.AppBundle ("../../../../Apps/HelloWorld_Cordova.app")
+//				.AppBundle ("../../../../Apps/HelloWorld_Cordova.app")
+			//IONIC
+				.AppBundle ("../../../../Apps/HelloWorld_Ionic.app")
 				.StartApp ();
 		}
 	}
