@@ -26,10 +26,12 @@ namespace UITests
 				.iOS
 			// TODO: Update this path to point to your iOS app and uncomment the
 			// code if the app is not included in the solution.
+			//ObjC
+//				.AppBundle ("../../../../Apps/HelloWorld_ObjC.app")
 			//SWIFT
-				.AppBundle ("../../../../Apps/HelloWorld_Swift.app")
+//				.AppBundle ("../../../../Apps/HelloWorld_Swift.app")
 			//CORDOVA
-//				.AppBundle ("../../../../Apps/HelloWorld_Cordova.app")
+				.AppBundle ("../../../../Apps/HelloWorld_Cordova.app")
 				.StartApp ();
 		}
 	}
