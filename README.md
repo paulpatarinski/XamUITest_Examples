@@ -6,6 +6,7 @@ Xamarin UI Test is a cross platform UI Testing framework by Xamarin built on top
 Platform | Technology/Language | Availability 
 :---------- | :----: | :----: | 
 Cross Platform (WebView) | Cordova | :white_check_mark: 
+Cross Platform (WebView) | Ionic | :white_check_mark: 
 Cross Platform (Native) | Xamarin Forms | :wrench: 
 iOS | Swift | :white_check_mark: 
 iOS | ObjC | :white_check_mark: 
