@@ -33,8 +33,9 @@ namespace UITests
 			if (isHybridApp) {
 				app.EnterText (c => c.Css ("#username"), "PaulP");
 				app.EnterText (c => c.Id ("#password"), "test password");
-				app.Tap (c => c.Id ("#loginButton"));
 				app.DismissKeyboard ();
+
+				app.Tap (c => c.Id ("#loginButton"));
 
 				app.WaitForElement (c => c.Marked ("Logged In"), "Timed out waiting for Logged In popup");
 
@@ -42,8 +43,9 @@ namespace UITests
 			} else {
 				app.EnterText (c => c.Id ("username"), "PaulP");
 				app.EnterText (c => c.Id ("password"), "test password");
-				app.Tap (c => c.Id ("loginButton"));
 				app.DismissKeyboard ();
+
+				app.Tap (c => c.Id ("loginButton"));
 
 				app.WaitForElement (c => c.Marked ("Logged In"), "Timed out waiting for Logged In popup");
 
