@@ -1,0 +1,7 @@
+/Users/paulpatarinski/WIP/Personal/XamUITests_Examples/src/Xamarin_Forms/Xamarin_Forms/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/paulpatarinski/WIP/Personal/XamUITests_Examples/src/Xamarin_Forms/Xamarin_Forms/bin/Debug/Xamarin_Forms.dll.mdb
+/Users/paulpatarinski/WIP/Personal/XamUITests_Examples/src/Xamarin_Forms/Xamarin_Forms/bin/Debug/Xamarin_Forms.dll
+/Users/paulpatarinski/WIP/Personal/XamUITests_Examples/src/Xamarin_Forms/Xamarin_Forms/obj/Debug/Xamarin_Forms.dll
+/Users/paulpatarinski/WIP/Personal/XamUITests_Examples/src/Xamarin_Forms/Xamarin_Forms/obj/Debug/Xamarin_Forms.dll.mdb
+/Users/paulpatarinski/WIP/Personal/XamUITests_Examples/src/Xamarin_Forms/Xamarin_Forms/bin/Debug/Xamarin.Forms.Core.dll
+/Users/paulpatarinski/WIP/Personal/XamUITests_Examples/src/Xamarin_Forms/Xamarin_Forms/bin/Debug/Xamarin.Forms.Xaml.dll

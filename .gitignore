@@ -16,3 +16,5 @@ src/Xamarin_Android/Xamarin_Android/obj
 src/Xamarin_Android/Xamarin_Android/bin
 src/Xamarin_Forms/Droid/obj
 src/Xamarin_Forms/packages
+src/Xamarin_Forms/iOS/bin
+src/Xamarin_Forms/iOS/obj
