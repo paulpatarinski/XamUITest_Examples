@@ -11,3 +11,5 @@ src_Cordova/node_modules
 src/Xamarin_iOS/HelloWXiOS/obj
 src/Xamarin_iOS/HelloWXiOS/bin
 src/Xamarin_iOS/packages
+src/Xamarin_Android/packages
+src/Xamarin_Android/Xamarin_Android/obj
