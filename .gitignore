@@ -8,3 +8,6 @@ src/Build/Products/Debug-iphonesimulator/HelloWorldTests.swiftmodule
 src/Build/Products/Debug-iphonesimulator/HelloWorldTests.xctest
 src_ObjectiveC/Build
 src_Cordova/node_modules
+src/Xamarin_iOS/HelloWXiOS/obj
+src/Xamarin_iOS/HelloWXiOS/bin
+src/Xamarin_iOS/packages
