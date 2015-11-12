@@ -21,3 +21,6 @@ Android | Xamarin Android | :wrench:
   * Source for the Xamarin UI Tests
 * src 
   * The source for the Apps under test 
+
+#Useful Resources
+* [Link Calabash in Debug](https://github.com/calabash/calabash-ios/wiki/Tutorial%3A-Link-Calabash-in-Debug-config)
