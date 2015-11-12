@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin_Forms.iOS", "iOS\Xa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin_Forms.Droid", "Droid\Xamarin_Forms.Droid.csproj", "{4505ECB5-81A8-4F79-8FB8-44D172D8B9B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin_Forms.UITests", "UITests\Xamarin_Forms.UITests.csproj", "{7A978417-0806-426D-9A37-6CC65787254A}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,20 +41,7 @@ Global
 		{7693A53F-1E81-48BE-8F11-10F5F0735964}.Release|iPhone.Build.0 = Release|Any CPU
 		{7693A53F-1E81-48BE-8F11-10F5F0735964}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{7693A53F-1E81-48BE-8F11-10F5F0735964}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
-		{7A978417-0806-426D-9A37-6CC65787254A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7A978417-0806-426D-9A37-6CC65787254A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7A978417-0806-426D-9A37-6CC65787254A}.Debug|iPhone.ActiveCfg = Debug|Any CPU
-		{7A978417-0806-426D-9A37-6CC65787254A}.Debug|iPhone.Build.0 = Debug|Any CPU
-		{7A978417-0806-426D-9A37-6CC65787254A}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
-		{7A978417-0806-426D-9A37-6CC65787254A}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
-		{7A978417-0806-426D-9A37-6CC65787254A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7A978417-0806-426D-9A37-6CC65787254A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7A978417-0806-426D-9A37-6CC65787254A}.Release|iPhone.ActiveCfg = Release|Any CPU
-		{7A978417-0806-426D-9A37-6CC65787254A}.Release|iPhone.Build.0 = Release|Any CPU
-		{7A978417-0806-426D-9A37-6CC65787254A}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
-		{7A978417-0806-426D-9A37-6CC65787254A}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{8F3617B8-7876-4E84-B763-F3AB12AACAC4}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
-		{8F3617B8-7876-4E84-B763-F3AB12AACAC4}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
 		{8F3617B8-7876-4E84-B763-F3AB12AACAC4}.Debug|iPhone.ActiveCfg = Debug|iPhone
 		{8F3617B8-7876-4E84-B763-F3AB12AACAC4}.Debug|iPhone.Build.0 = Debug|iPhone
 		{8F3617B8-7876-4E84-B763-F3AB12AACAC4}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator

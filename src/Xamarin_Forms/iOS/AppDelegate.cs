@@ -4,6 +4,7 @@ using System.Linq;
 
 using Foundation;
 using UIKit;
+using Xamarin.Forms;
 
 namespace Xamarin_Forms.iOS
 {
@@ -14,9 +15,16 @@ namespace Xamarin_Forms.iOS
 		{
 			global::Xamarin.Forms.Forms.Init ();
 
+			Forms.ViewInitialized += (object sender, ViewInitializedEventArgs e) => {
+				// http://developer.xamarin.com/recipes/testcloud/set-accessibilityidentifier-ios/
+				if (null != e.View.StyleId) {
+					e.NativeView.AccessibilityIdentifier = e.View.StyleId;
+				}
+			};
+
 			// Code for starting up the Xamarin Test Cloud Agent
 			#if ENABLE_TEST_CLOUD
-			Xamarin.Calabash.Start();
+			Xamarin.Calabash.Start ();
 			#endif
 
 			LoadApplication (new App ());

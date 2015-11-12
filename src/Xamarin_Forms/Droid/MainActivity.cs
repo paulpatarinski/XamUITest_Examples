@@ -19,6 +19,12 @@ namespace Xamarin_Forms.Droid
 
 			global::Xamarin.Forms.Forms.Init (this, bundle);
 
+			Xamarin.Forms.Forms.ViewInitialized += (object sender, Xamarin.Forms.ViewInitializedEventArgs e) => {
+				if (!string.IsNullOrWhiteSpace (e.View.StyleId)) {
+					e.NativeView.ContentDescription = e.View.StyleId;
+				}
+			};
+
 			LoadApplication (new App ());
 		}
 	}
