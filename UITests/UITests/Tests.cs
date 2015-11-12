@@ -41,11 +41,11 @@ namespace UITests
 
 				app.Tap (c => c.Marked ("OK"));
 			} else {
-				app.EnterText (c => c.Id ("username"), "PaulP");
-				app.EnterText (c => c.Id ("password"), "test password");
+				app.EnterText (c => c.Marked ("username"), "PaulP");
+				app.EnterText (c => c.Marked ("password"), "test password");
 				app.DismissKeyboard ();
 
-				app.Tap (c => c.Id ("loginButton"));
+				app.Tap (c => c.Marked ("loginButton"));
 
 				app.WaitForElement (c => c.Marked ("Logged In"), "Timed out waiting for Logged In popup");
 
