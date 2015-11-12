@@ -23,6 +23,7 @@ Android | Xamarin Android | :white_check_mark:
   * The source for the Apps under test 
 
 #Bootstrapping Xamarin UI Test
+Steps to take in order to bootstrap Xamarin UI Test in your project :
 * Xamarin
   * [iOS](https://developer.xamarin.com/guides/testcloud/uitest/quickstarts/ios/) 
     * Xam UI Test Nuget + Xamarin.Calabash.Start (); in your AppDelegate
