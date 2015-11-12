@@ -29,9 +29,7 @@ Android | Xamarin Android | :white_check_mark:
   * [Android](https://developer.xamarin.com/guides/testcloud/uitest/quickstarts/android/) 
     * Xam UI Test Nuget / No code changes required
 * Native
-  * iOS
+  * [iOS] (https://github.com/calabash/calabash-ios/wiki/Tutorial%3A-How-to-add-Calabash-to-Xcode)
+    * Linking Calabash iOS in your XCode project 
   * Android
 * Cordova based Apps
-
-#Useful Resources
-* [Link Calabash in Debug](https://github.com/calabash/calabash-ios/wiki/Tutorial%3A-Link-Calabash-in-Debug-config)
