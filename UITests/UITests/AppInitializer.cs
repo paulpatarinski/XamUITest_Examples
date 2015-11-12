@@ -18,7 +18,7 @@ namespace UITests
 					.Android
 				// TODO: Update this path to point to your Android app and uncomment the
 				// code if the app is not included in the solution.
-				//.ApkFile ("../../../Droid/bin/Debug/xamarinforms.apk")
+					.ApkFile ("../../../../Apps/HelloWorld_Xamarin_Android.apk")
 					.StartApp ();
 			}
 
