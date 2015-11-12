@@ -24,8 +24,8 @@ Android | Xamarin Android | :white_check_mark:
 
 #Bootstrapping Xamarin UI Test
 * Xamarin
-  * iOS
-  * Android
+  * [iOS](https://developer.xamarin.com/guides/testcloud/uitest/quickstarts/ios/)
+  * [Android](https://developer.xamarin.com/guides/testcloud/uitest/quickstarts/android/)
 * Native
   * iOS
   * Android
