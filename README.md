@@ -7,6 +7,7 @@ Platform | Technology/Language | Availability
 :---------- | :----: | :----: | 
 Cross Platform (WebView) | Cordova | :white_check_mark: 
 Cross Platform (WebView) | Ionic | :white_check_mark: 
+Cross Platform (WebView) | Telerik Appbuilder | :wrench: 
 Cross Platform (Native) | Xamarin Forms | :white_check_mark:
 iOS | Swift | :white_check_mark: 
 iOS | ObjC | :white_check_mark: 
