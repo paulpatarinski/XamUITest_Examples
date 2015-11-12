@@ -22,5 +22,5 @@ Android | Xamarin Android | :wrench:
 * src 
   * The source for the Apps under test 
 
-#Useful resources
+#Useful Resources
 * [Link Calabash in Debug](https://github.com/calabash/calabash-ios/wiki/Tutorial%3A-Link-Calabash-in-Debug-config)
