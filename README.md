@@ -12,7 +12,7 @@ iOS | Swift | :white_check_mark:
 iOS | ObjC | :white_check_mark: 
 iOS | Xamarin iOS | :white_check_mark:
 Android | Java | :wrench: 
-Android | Xamarin Android | :wrench: 
+Android | Xamarin Android | :white_check_mark: 
 
 #Project structure
 * Apps 
