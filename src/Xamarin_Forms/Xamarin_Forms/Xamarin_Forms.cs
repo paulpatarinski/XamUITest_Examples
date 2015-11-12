@@ -25,7 +25,7 @@ namespace Xamarin_Forms
 			};
 
 			loginButton.Clicked += async (object sender, EventArgs e) => {
-				await mainPage.DisplayAlert ("Login", "Logged in", "OK");
+				await mainPage.DisplayAlert ("Login", "Logged In", "OK");
 			};
 			// The root page of your application
 			MainPage = mainPage;

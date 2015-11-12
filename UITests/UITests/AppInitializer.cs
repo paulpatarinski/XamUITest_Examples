@@ -18,7 +18,9 @@ namespace UITests
 					.Android
 				// TODO: Update this path to point to your Android app and uncomment the
 				// code if the app is not included in the solution.
+				//Xamarin Android
 				//					.ApkFile ("../../../../Apps/HelloWorld_Xamarin_Android.apk")
+				//Xamarin Forms
 					.ApkFile ("../../../../Apps/HelloWorld_XamarinForms_Android.apk")
 					.StartApp ();
 			}
@@ -36,7 +38,9 @@ namespace UITests
 			//IONIC
 //				.AppBundle ("../../../../Apps/HelloWorld_Ionic.app")
 			//Xamarin iOS
-				.AppBundle ("../../../../Apps/HelloWorld_Xamarin_iOS.app")
+//				.AppBundle ("../../../../Apps/HelloWorld_Xamarin_iOS.app")
+//				Xamarin Forms
+				.AppBundle ("../../../../Apps/HelloWorld_XamarinForms_iOS.app")
 				.StartApp ();
 		}
 	}
