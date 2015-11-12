@@ -24,8 +24,10 @@ Android | Xamarin Android | :white_check_mark:
 
 #Bootstrapping Xamarin UI Test
 * Xamarin
-  * [iOS](https://developer.xamarin.com/guides/testcloud/uitest/quickstarts/ios/)
-  * [Android](https://developer.xamarin.com/guides/testcloud/uitest/quickstarts/android/)
+  * [iOS](https://developer.xamarin.com/guides/testcloud/uitest/quickstarts/ios/) 
+    * Xam UI Test Nuget + Xamarin.Calabash.Start (); in your AppDelegate
+  * [Android](https://developer.xamarin.com/guides/testcloud/uitest/quickstarts/android/) 
+    * Xam UI Test Nuget / No code changes required
 * Native
   * iOS
   * Android
