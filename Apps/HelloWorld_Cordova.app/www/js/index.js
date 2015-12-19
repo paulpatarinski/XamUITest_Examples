@@ -35,6 +35,18 @@ var app = {
     onDeviceReady: function() {
       var loginButton =  document.getElementById("loginButton");
       loginButton.addEventListener("click", app.login);
+      
+      if(window.calabash){
+        var success = function() {
+            console.log("Calabash Server started");
+        }
+
+        var failure = function() {
+            console.log("Error starting Calabash Server");
+        }
+
+        calabash.start(success, failure);
+    }
     },
     login : function(){
         alert("Logged In");
