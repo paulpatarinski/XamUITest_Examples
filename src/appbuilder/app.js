@@ -16,10 +16,6 @@
 
     if (window.cordova) {
         document.addEventListener('deviceready', function() {
-            
-            var loginButton =  document.getElementById("loginButton");
-            loginButton.addEventListener("click", app.login);
-   
             if (navigator && navigator.splashscreen) {
                 navigator.splashscreen.hide();
             }
