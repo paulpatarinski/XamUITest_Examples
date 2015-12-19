@@ -7,6 +7,19 @@ angular.module('starter', ['ionic'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
+      if(window.calabash){
+        var success = function() {
+            alert("Calabash started");
+            console.log("Calabash Server started");
+        }
+
+        var failure = function() {
+            console.log("Error starting Calabash Server");
+        }
+
+        calabash.start(success, failure);
+      }
+      
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
     if(window.cordova && window.cordova.plugins.Keyboard) {
