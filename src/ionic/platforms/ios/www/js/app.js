@@ -9,7 +9,6 @@ angular.module('starter', ['ionic'])
   $ionicPlatform.ready(function() {
       if(window.calabash){
         var success = function() {
-            alert("Calabash started");
             console.log("Calabash Server started");
         }
 
