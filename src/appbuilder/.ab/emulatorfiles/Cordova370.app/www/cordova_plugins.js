@@ -490,6 +490,13 @@ module.exports = [
             "navigator.notification",
             "navigator"
         ]
+    },
+    {
+        "file": "plugins/com.simpleProdInc.calabashiOS/www/calabashiOS.js",
+        "id": "com.simpleProdInc.calabashiOS.calabashiOS",
+        "clobbers": [
+            "calabash"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -515,6 +522,7 @@ module.exports.metadata =
     "org.apache.cordova.splashscreen": "0.3.5-dev",
     "org.apache.cordova.statusbar": "0.1.8",
     "org.apache.cordova.vibration": "0.3.12",
+    "com.simpleProdInc.calabashiOS": "0.7.0",
     "com.telerik.zip": "1.0.0",
     "com.telerik.afnetworking": "2.5.2",
     "cordova-plugin-webserver": "1.0.3"

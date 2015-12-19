@@ -20,6 +20,18 @@
                 navigator.splashscreen.hide();
             }
 
+            if(window.calabash){
+                var success = function() {
+                    console.log("Calabash Server started");
+                }
+
+                var failure = function() {
+                    console.log("Error starting Calabash Server");
+                }
+
+                calabash.start(success, failure);
+            }
+            
             var element = document.getElementById('appDrawer');
             if (typeof(element) != 'undefined' && element !== null) {
                 if (window.navigator.msPointerEnabled) {

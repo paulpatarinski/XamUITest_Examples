@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+        id="com.simpleProdInc.calabashiOS"
+        version="0.7.0">
+
+  <name>CalabashiOS</name>
+
+  <engines>
+    <engine name="cordova" version=">=3.4.0"/>
+  </engines>
+
+  
+   <js-module src="www/calabashiOS.js" name="calabashiOS">
+    <clobbers target="calabash" />
+  </js-module>
+
+  <platform name="ios">
+    
+    <config-file target="config.xml" parent="/widget">
+      <feature name="CalabashiOSServer">
+        <param name="ios-package" value="CalabashiOSServer" />
+      </feature>
+    </config-file>
+    
+    <framework src="src/ios/Frameworks/Security.framework" weak="true" />
+    <framework src="src/ios/Frameworks/CFNetwork.framework" weak="true" />
+    <framework src="src/ios/Frameworks/calabash.framework" custom="true" />
+    
+    <header-file src="src/ios/CalabashiOSServer.h" />
+    <source-file src="src/ios/CalabashiOSServer.m"/>
+
+  </platform>
+
+</plugin>

@@ -90,4 +90,7 @@
     <feature name="Vibration">
         <param name="ios-package" value="CDVVibration" />
     </feature>
+    <feature name="CalabashiOSServer">
+        <param name="ios-package" value="CalabashiOSServer" />
+    </feature>
 </widget>
