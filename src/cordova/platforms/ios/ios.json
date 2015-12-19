@@ -4,13 +4,36 @@
         "uninstalled": []
     },
     "config_munge": {
-        "files": {}
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/widget": [
+                        {
+                            "xml": "<feature name=\"CalabashiOSServer\"><param name=\"ios-package\" value=\"CalabashiOSServer\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
     },
     "installed_plugins": {
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.simpleprodinc.HelloWorldCordova"
+        },
+        "com.simpleProdInc.calabashiOS": {
+            "PACKAGE_NAME": "com.simpleprodinc.HelloWorldCordova"
         }
     },
     "dependent_plugins": {},
-    "modules": []
+    "modules": [
+        {
+            "file": "plugins/com.simpleProdInc.calabashiOS/www/calabashiOS.js",
+            "id": "com.simpleProdInc.calabashiOS.calabashiOS",
+            "pluginId": "com.simpleProdInc.calabashiOS",
+            "clobbers": [
+                "calabash"
+            ]
+        }
+    ]
 }

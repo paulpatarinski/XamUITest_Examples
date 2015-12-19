@@ -9,6 +9,9 @@
     "installed_plugins": {
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.simpleprodinc.HelloWorldCordova"
+        },
+        "com.simpleProdInc.calabashiOS": {
+            "PACKAGE_NAME": "com.simpleprodinc.HelloWorldCordova"
         }
     },
     "dependent_plugins": {}

@@ -1,0 +1,4 @@
+{
+    "src/ios/Frameworks/Security.framework": 1,
+    "src/ios/Frameworks/CFNetwork.framework": 1
+}

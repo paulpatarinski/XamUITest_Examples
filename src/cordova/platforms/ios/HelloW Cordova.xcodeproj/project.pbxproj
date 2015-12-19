@@ -39,6 +39,10 @@
 		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
+		A5C30894B1E74D70943B34A1 /* CalabashiOSServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 17010F03B67F4F51ABED9288 /* CalabashiOSServer.m */; };
+		E27C5DB3A3FE4DD4828D9972 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2CF78884A734A02843B4527 /* Security.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FBB62D811F0148F7B6F438E1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1397617A94647DEB70597E9 /* CFNetwork.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		E1C683C07B1A4EAA8F96CC7D /* calabash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348E78D653C5488A934F107A /* calabash.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +108,11 @@
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "HelloW Cordova/config.xml"; sourceTree = "<group>"; };
+		17010F03B67F4F51ABED9288 /* CalabashiOSServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CalabashiOSServer.m"; path = "com.simpleProdInc.calabashiOS/CalabashiOSServer.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		26EA78B3400E4C38B0F659EC /* CalabashiOSServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CalabashiOSServer.h"; path = "com.simpleProdInc.calabashiOS/CalabashiOSServer.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		F2CF78884A734A02843B4527 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Security.framework"; path = "System/Library/Frameworks/src/ios/Frameworks/Security.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		D1397617A94647DEB70597E9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CFNetwork.framework"; path = "System/Library/Frameworks/src/ios/Frameworks/CFNetwork.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		348E78D653C5488A934F107A /* calabash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "calabash.framework"; path = "HelloW Cordova/Plugins/com.simpleProdInc.calabashiOS/calabash.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +124,9 @@
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
+				E27C5DB3A3FE4DD4828D9972 /* Security.framework in Frameworks */,
+				FBB62D811F0148F7B6F438E1 /* CFNetwork.framework in Frameworks */,
+				E1C683C07B1A4EAA8F96CC7D /* calabash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +199,9 @@
 				5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
+				F2CF78884A734A02843B4527 /* Security.framework */,
+				D1397617A94647DEB70597E9 /* CFNetwork.framework */,
+				348E78D653C5488A934F107A /* calabash.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -202,6 +217,8 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				17010F03B67F4F51ABED9288 /* CalabashiOSServer.m */,
+				26EA78B3400E4C38B0F659EC /* CalabashiOSServer.h */,
 			);
 			name = Plugins;
 			path = "HelloW Cordova/Plugins";
@@ -386,6 +403,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
+				A5C30894B1E74D70943B34A1 /* CalabashiOSServer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +446,10 @@
 				);
 				PRODUCT_NAME = "HelloW Cordova";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"HelloW Cordova/Plugins/com.simpleProdInc.calabashiOS\"",
+				);
 			};
 			name = Debug;
 		};
@@ -457,6 +479,10 @@
 				);
 				PRODUCT_NAME = "HelloW Cordova";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"HelloW Cordova/Plugins/com.simpleProdInc.calabashiOS\"",
+				);
 			};
 			name = Release;
 		};
