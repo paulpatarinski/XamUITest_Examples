@@ -7,7 +7,7 @@ Platform | Technology/Language | Availability
 :---------- | :----: | :----: | 
 Cross Platform (WebView) | Cordova | :white_check_mark: 
 Cross Platform (WebView) | Ionic | :white_check_mark: 
-Cross Platform (WebView) | Telerik Appbuilder | :wrench: 
+Cross Platform (WebView) | Telerik Appbuilder | :white_check_mark:
 Cross Platform (Native) | Xamarin Forms | :white_check_mark:
 iOS | Swift | :white_check_mark: 
 iOS | ObjC | :white_check_mark: 
@@ -34,10 +34,10 @@ Steps to take in order to bootstrap Xamarin UI Test in your project :
     * Xam UI Test Nuget / Map StyleId to Native Identifiers 
 * Native
   * [iOS] (https://github.com/calabash/calabash-ios/wiki/Tutorial%3A-How-to-add-Calabash-to-Xcode)
-    * Linking Calabash iOS in your XCode project 
+    * Link Calabash iOS in your XCode project 
   * Android
 * Hybrid Apps
   * iOS  
-    *  Xam UI Test Nuget / Add the [Cordova Calabash Plugin](https://github.com/paulpatarinski/Cordova-Calabash-iOS-Plugin) & Start the HTTP Server from js 
+    *  Add Xam UI Test Nuget / Add the [Cordova Calabash Plugin](https://github.com/paulpatarinski/Cordova-Calabash-iOS-Plugin) & Start the HTTP Server from app.js 
   * Android
-    * Xam UI Test Nuget / No Code Changes 
+    * Add Xam UI Test Nuget / No Code Changes 
