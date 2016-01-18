@@ -39,6 +39,8 @@ namespace UITests
 //				.AppBundle ("../../../../Apps/HelloWorld_Ionic.app")
 			//Xamarin iOS
 //				.AppBundle ("../../../../Apps/HelloWorld_Xamarin_iOS.app")
+			//Telerik Appbuilder
+//				.AppBundle ("../../../../Apps/HelloWorld_Appbuilder_iOS.app")
 //				Xamarin Forms
 				.AppBundle ("../../../../Apps/HelloWorld_XamarinForms_iOS.app")
 				.StartApp ();
