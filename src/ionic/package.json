@@ -25,7 +25,7 @@
     "cordova-plugin-statusbar",
     "ionic-plugin-keyboard",
     {
-      "locator": "https://github.com/paulpatarinski/Cordova-Calabash-iOS-Plugin",
+      "locator": "https://github.com/paulpatarinski/Cordova-Calabash-iOS-Plugin.git",
       "id": "com.simpleProdInc.calabashiOS"
     }
   ],

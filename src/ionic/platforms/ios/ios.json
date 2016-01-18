@@ -1,0 +1,36 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/widget": [
+                        {
+                            "xml": "<feature name=\"CalabashiOSServer\"><param name=\"ios-package\" value=\"CalabashiOSServer\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "com.simpleProdInc.calabashiOS": {
+            "PACKAGE_NAME": "com.simpleprodinc.helloworldionic"
+        }
+    },
+    "dependent_plugins": {},
+    "modules": [
+        {
+            "file": "plugins/com.simpleProdInc.calabashiOS/www/calabashiOS.js",
+            "id": "com.simpleProdInc.calabashiOS.calabashiOS",
+            "pluginId": "com.simpleProdInc.calabashiOS",
+            "clobbers": [
+                "calabash"
+            ]
+        }
+    ]
+}
