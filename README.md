@@ -29,7 +29,7 @@ Steps to take in order to bootstrap Xamarin UI Test in your project :
   * [iOS](https://developer.xamarin.com/guides/testcloud/uitest/quickstarts/ios/) 
     * Xam UI Test Nuget + Xamarin.Calabash.Start (); in your AppDelegate
   * [Android](https://developer.xamarin.com/guides/testcloud/uitest/quickstarts/android/) 
-    * Xam UI Test Nuget / No code changes required
+    * No code changes required
   * [Xamarin Forms](https://developer.xamarin.com/guides/cross-platform/xamarin-forms/uitest-and-test-cloud/)
     * Xam UI Test Nuget / Map StyleId to Native Identifiers 
 * Native
@@ -38,6 +38,6 @@ Steps to take in order to bootstrap Xamarin UI Test in your project :
   * Android
 * Hybrid Apps
   * iOS  
-    *  Add Xam UI Test Nuget / Add the [Cordova Calabash Plugin](https://github.com/paulpatarinski/Cordova-Calabash-iOS-Plugin) & Start the HTTP Server from app.js 
+    *  Add the [Cordova Calabash Plugin](https://github.com/paulpatarinski/Cordova-Calabash-iOS-Plugin) & Start the HTTP Server from app.js 
   * Android
-    * Add Xam UI Test Nuget / No Code Changes 
+    * No Code Changes 
