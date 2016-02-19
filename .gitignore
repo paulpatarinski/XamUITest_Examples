@@ -23,3 +23,5 @@ src/appbuilder/.ab
 UITests/packages/
 UITests/UITests/obj/
 UITests/UITests/bin/
+src/appbuilder/HelloW_Appbuilder/bin/
+src/appbuilder/HelloW_Appbuilder/obj/
