@@ -32,10 +32,10 @@ namespace UITests
 
 			if (isHybridApp) {
 				app.EnterText (c => c.Css ("#username"), "PaulP");
-				app.EnterText (c => c.Id ("#password"), "test password");
+				app.EnterText (c => c.Css ("#password"), "test password");
 				app.DismissKeyboard ();
 
-				app.Tap (c => c.Id ("#loginButton"));
+				app.Tap (c => c.Css("#loginButton"));
 
 				app.WaitForElement (c => c.Marked ("Logged In"), "Timed out waiting for Logged In popup");
 
