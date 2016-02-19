@@ -25,8 +25,10 @@ namespace UITests
         //Appbuilder NoCrosswalk
         //.ApkFile ("../../../../Apps/HelloWorld_Appbuilder_Android.apk")
         //Appbuilder Crosswalk 14
-        .ApkFile ("../../../../Apps/HelloWorld_Appbuilder_Crosswalk14_Android.apk")
-				.StartApp ();
+        //.ApkFile ("../../../../Apps/HelloWorld_Appbuilder_Crosswalk14_Android.apk")
+        //Appbuilder Crosswalk 15
+        .ApkFile("../../../../Apps/HelloWorld_Appbuilder_Crosswalk15_Android.apk")
+        .StartApp ();
       }
 
 			return ConfigureApp

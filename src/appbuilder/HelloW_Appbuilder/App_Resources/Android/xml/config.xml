@@ -27,7 +27,7 @@
     <!-- allow local pages -->
     <!-- <access origin="http://127.0.0.1*"/> -->
     <access origin="*" />
-	<preference name="xwalkVersion" value="14+" />
+	<preference name="xwalkVersion" value="15+" />
     
 	<!-- Grant certain URLs the ability to launch external applications. This
          behaviour is set to match that of Cordova versions before 3.6.0, and
