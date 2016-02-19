@@ -19,13 +19,22 @@ namespace UITests
 			this.platform = platform;
 		}
 
-		[SetUp]
-		public void BeforeEachTest ()
-		{
-			app = AppInitializer.StartApp (platform);
-		}
+	  [SetUp]
+	  public void BeforeEachTest()
+	  {
+	    app = AppInitializer.StartApp(platform);
+	  }
 
-		[Test]
+
+	  [Test]
+	  public void Can_Detect_WebElements()
+	  {
+	    var webElements = app.Query(c => c.Raw("xwalkcontent css:'*'"));
+
+      Assert.IsNotEmpty(webElements);
+	  }
+
+	  [Test]
 		public void Enter_Creds_And_Tap_Ok ()
 		{
 			var isHybridApp = app.Query (c => c.WebView ()).Any ();

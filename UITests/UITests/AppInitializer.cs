@@ -22,8 +22,10 @@ namespace UITests
         //					.ApkFile ("../../../../Apps/HelloWorld_Xamarin_Android.apk")
         //Xamarin Forms
         //.ApkFile ("../../../../Apps/HelloWorld_XamarinForms_Android.apk")
-         //Appbuilder
-        .ApkFile ("../../../../Apps/HelloWorld_Appbuilder_Android.apk")
+        //Appbuilder NoCrosswalk
+        //.ApkFile ("../../../../Apps/HelloWorld_Appbuilder_Android.apk")
+        //Appbuilder Crosswalk 14
+        .ApkFile ("../../../../Apps/HelloWorld_Appbuilder_Crosswalk14_Android.apk")
 				.StartApp ();
       }
 
