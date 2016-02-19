@@ -1,0 +1,7 @@
+{
+  "generator-kendo-ui-mobile": {
+    "dependsOn": [
+      "generator-kendo-ui-mobile@0.0.14"
+    ]
+  }
+}
