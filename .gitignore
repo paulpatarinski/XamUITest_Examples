@@ -20,3 +20,5 @@ src/Xamarin_Forms/iOS/bin
 src/Xamarin_Forms/iOS/obj
 src/Xamarin_Forms/Droid/bin
 src/appbuilder/.ab
+UITests/packages/
+UITests/UITests/obj/
