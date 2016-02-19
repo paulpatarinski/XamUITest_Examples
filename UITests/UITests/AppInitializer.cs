@@ -16,14 +16,16 @@ namespace UITests
 			if (platform == Platform.Android) {
 				return ConfigureApp
 					.Android
-				// TODO: Update this path to point to your Android app and uncomment the
-				// code if the app is not included in the solution.
-				//Xamarin Android
-				//					.ApkFile ("../../../../Apps/HelloWorld_Xamarin_Android.apk")
-				//Xamarin Forms
-					.ApkFile ("../../../../Apps/HelloWorld_XamarinForms_Android.apk")
-					.StartApp ();
-			}
+        // TODO: Update this path to point to your Android app and uncomment the
+        // code if the app is not included in the solution.
+        //Xamarin Android
+        //					.ApkFile ("../../../../Apps/HelloWorld_Xamarin_Android.apk")
+        //Xamarin Forms
+        //.ApkFile ("../../../../Apps/HelloWorld_XamarinForms_Android.apk")
+         //Appbuilder
+        .ApkFile ("../../../../Apps/HelloWorld_Appbuilder_Android.apk")
+				.StartApp ();
+      }
 
 			return ConfigureApp
 				.iOS
